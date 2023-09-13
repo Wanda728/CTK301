@@ -1,0 +1,40 @@
+h1 {
+    color:red;
+    background-color: green;
+}
+h2 {
+    color:blueviolet;
+    background-color: yellow;
+}
+h3 {
+    color:green;
+    background-color: powderblue;
+}
+p {
+    color:purple;
+    background-color: beige;
+}
+.specialp {
+    color:blue;
+    background-color: aquamarine;
+}
+a:link {
+    color:red;
+}
+a:visited {
+    color:green;
+}
+a:hover {
+    color:yellow;
+}
+#specialid{
+    color:powderblue;
+    background-color: darkmagenta;
+}
+#classes{
+    color:grey;
+    background-color:burlywood;
+}
+.spanstyle{
+    color:red;
+}
