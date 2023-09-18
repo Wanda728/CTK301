@@ -1,0 +1,38 @@
+h1 {
+    color:white;
+}
+h2 {
+    color:blue;
+}
+h3 {
+    background-color: yellow;
+}
+h4 { 
+    background-color: green;
+    color: yellow;
+}
+h5 {
+    color:red
+}
+.specialp {
+    
+    color:black;
+}
+#poisonsky{
+    background-color: lightblue;
+}
+a:link{
+    color:green;
+}
+.spanstyle{
+    color:orange;
+}
+.inferno{
+    color:red;
+}
+.fathersday{
+    background-color: lightgreen;
+}
+#doctorsdaughter{
+    background-color: yellow;
+}
