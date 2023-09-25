@@ -1,0 +1,69 @@
+h1 {
+    font-style: helvetica;
+    font-weight: normal;
+    background-color: white;
+    border: 20px solid white;
+    text-align: justify;
+
+}
+nav ul li{
+    border: 1px solid darkblue;
+    width: 200px;
+    padding: 0px;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+}
+nav li a {
+    color:white;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+nav ul a{
+    color: white;
+    text-decoration: none;
+}
+nav li a:hover{
+    background-color: blue;
+}
+h2{
+    font-style: helvetica;
+    font-weight:bold;
+    border-bottom: 2px solid black;
+    margin: 10px;
+    padding:10px;
+}
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: blue;
+}
+p a:hover{
+    color:red;
+    text-decoration: underline;
+}
+p{ 
+    text-align:justify;
+    padding: 10px;
+}
+.footer{
+    text-align: center;
+    font-weight: bold;
+    font-style:verdana;
+    font-style:italic;
+    background-color:darkblue;
+    color: white;
+    border:1px solid white;
+    padding: 50px;
+    font-size:large;
+}
+body{
+    background-image: url(a5bg.png)
+}
+#text {
+    background-color: white;
+    border:2px solid darkblue;
+}
