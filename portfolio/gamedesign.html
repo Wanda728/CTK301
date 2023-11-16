@@ -2,11 +2,13 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Main Page</title>
+    <title>Game Design</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-    <link href="portfolio.css" rel="stylesheet" type="text/css">
+    <link href="gamedesign.css" rel="stylesheet" type="text/css">
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" /> 
 </head>
 <body>
     <div id="wrapper">
@@ -16,23 +18,29 @@
             <ul>
                 <li><a href="#" target="_blank">Video</a></li>
                 <li><a href="#" target="_blank">Audio</a></li>
-                <li><a href="gamedesign.html" target="gamedesign.html">Game Design</a></li>
+                <li><a href="#" target="_blank">Game Design</a></li>
                 <li><a href="#" target="_blank">Web Development</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <h2>About Me</h2>
-        <iframe width="500" height="300" src="https://www.youtube.com/embed/usc6MbglrpQ?si=82mcyuQEL2-3NnZ3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"allowfullscreen></iframe>
+        <h2>Game Design</h2>
         <p>Hey everyone and thank you for visiting my website! My name is Devin Wanda, and I am a student at Illinois State University. I’m currently a sophomore majoring in Creative Technology for Game Design, but I also enjoy working on web development for academic purposes and personal projects. I have always been interested in constructing websites and video games for as long as I can remember, and my goal is to pursue a career that involves designing or developing online projects. In the meantime, I’m working on expanding my knowledge and refining my current skills so I can provide the best product for users and consumers alike. </p>
 
         <p>Some projects I have planned involve making a website that hosts a variety of games that I have been working on, developing an app on iPhones and Android, and working on ways that I can provide inclusion for people with disabilities to access the web.</p>
-        
-        <p>I hope you enjoy this page and look through any of the projects that I have posted if you need to get in touch with me personally for questions or anything at all feel free to contact me with the information provided.</p>
-      
     </main>
+    <text>
+        <h2>Projects</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque quibusdam aut sapiente fuga magni rerum error, cupiditate inventore! Nemo incidunt totam doloribus voluptas saepe possimus vitae nobis, modi omnis Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt doloremque odio harum alias incidunt aut maxime excepturi omnis fuga eum aliquid mollitia cum porro tenetur fugiat molestias, numquam praesentium ipsa magnam eaque repellat dicta reiciendis. Voluptates sint odio alias deleniti eaque cupiditate consequatur libero mollitia inventore, amet veniam odit repudiandae!</p>
+
+    </text>
     <aside>
-        <img src="frog-sombrero-512x512.png">
+        <h2>Previous Designs</h2>
+        <div id="myCarousel" class="f-carousel">
+            <div class="f-carousel__slide"><img src="622227fd2ce3cc0455a88166_blog-gamedev-fullsize.png"></div>
+            <div class="f-carousel__slide"><img src="game-design-development-benefits-blazing-fast-performance-1280x720-nc.avif"></div>
+            <div class="f-carousel__slide"><img src="download.jpeg"></div>
+        </div>
         <div id="italics">
             <h2>Contact Me</h2>
             
@@ -60,4 +68,10 @@
     <p>        <iframe width="100%" height="166" scrolling="no" frameborder="yes" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/489324015&color=%231ed292&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/mizzymauri" title="mizzy mauri" target="_blank" style="color: #cccccc; text-decoration: none;">mizzy mauri</a> · <a href="https://soundcloud.com/mizzymauri/bas-ft-j-cole-tribe-instrumental-reprod-by-mizzy-mauri" title="Bas ft. J Cole - Tribe (instrumental) reprod by mizzy mauri" target="_blank" style="color: #cccccc; text-decoration: none;">Bas ft. J Cole - Tribe (instrumental) reprod by mizzy mauri</a></div></p>
     </footer>
     </div>
+    <script>
+        const container = document.getElementById("myCarousel");
+        const options = { infinite: false };
+        new Carousel(container, options);
+    </script>
 </body>
+</html>

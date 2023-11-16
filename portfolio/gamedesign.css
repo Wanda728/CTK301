@@ -15,12 +15,17 @@ header a{
 }
 
 main{
-    grid-column: span 5;
+    grid-column: span 2;
     background-color: white;
     padding: 10px;
 }
+text{
+    grid-column: span 2;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+}
 aside{
-    grid-column: span 1;
+    grid-column: span 2;
     background-color: darkgreen;
     padding: 10px;
     border-left: 5px solid black;
@@ -78,6 +83,13 @@ main h2{
     border-bottom: 2px solid black;
     color: black;
 }
+text h2{
+    border-bottom: 2px solid black;
+    color: black;
+}
+text{
+    border-left: solid 5px black;
+}
 header h1{
     margin: 1em;
     font-weight: bold;
@@ -115,3 +127,12 @@ main iframe {
 footer iframe{
     border: solid black 2px;
 }
+#myCarousel {
+    margin-bottom: 24px;
+  }
+  
+  #myCarousel .f-carousel__slide {
+    text-align: center;
+    padding: 24px;
+    background: forestgreen;
+  }
