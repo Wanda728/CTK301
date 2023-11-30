@@ -1,12 +1,12 @@
 body{
     font-family: 'Poppins', sans-serif;
-    background-color:darkgray;
+    background-image: url(pngtree-abstract-playful-portfolio-pink-memphis-image_593415.jpg);
 }
 header{
     grid-column: span 6;
     background-color: brown;
-    border-bottom: 5px solid black;
-    background-image: linear-gradient(180deg, #6fc276 10%,darkgreen 150%);
+    border-bottom: 2px solid black;
+    background-image: linear-gradient(180deg, #F9D9C0 10%, #ffa976 150%);
 }
 
 header a{
@@ -21,51 +21,47 @@ main{
 }
 aside{
     grid-column: span 1;
-    background-color: darkgreen;
+    background-color: #ffa976;
     padding: 10px;
-    border-left: 5px solid black;
+    border-left: 2px solid black;
     color: white;
+}
+aside a{
+    text-decoration: none;
+    text-align: left;
 }
 footer{
     grid-column: span 6;
     background-color: darkslategray;
-    border-top: 5px solid black;
+    border-top: 2px solid black;
 }
 #wrapper{
     grid-template-columns: repeat(6,1fr);
     display: grid;
+    border: 2px solid black;
     margin: 1em;
-    border: 5px solid black;
 }
 nav ul li{
-    border: 3px solid black;
     display: inline-block;
     width: 300px;
     margin: 1em;
     text-align: center;
-    border-radius: 15px;
-    border-top-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-left-radius: 5px; 
+    font-weight: bold;
   } 
 nav li a{
     display: block;
-    background-color:green;
-    padding: 1em;
     text-decoration: none;
-    transition: background-color 1.0s, width 2.0s, color 2.0s;
+    transition: background-color 0.5s, width 2.0s, color 1.5s;
 }
 nav li a:hover{
-    background-color: darkgreen;
-    font-weight: normal;
+    font-weight: bold;
 }
 nav ul a{
-    color: white;
+    color: black;
     text-decoration: none;
 }
 nav ul a:hover{
-color: limegreen;
+color: #9899e8;
 }
 main img{
     float:right;
@@ -106,7 +102,7 @@ transition: background-color 1.0s, width 2.0s, color 2.0s;
 }
 aside a:hover{
     transition: color 1.0s, width 2.0s, color 2.0s;
-    color:#6fc276;
+    color: purple;
 }
 main iframe {
     float: right;
@@ -114,4 +110,49 @@ main iframe {
 }
 footer iframe{
     border: solid black 2px;
+}
+#red{
+    color: red;
+}
+text{
+    grid-column: span 6;
+    background-color: #F9D9C0;
+    padding: 10px;
+    border-top: 2px solid black;
+    color: black;
+}
+text aside{
+    grid-column: span 1;
+    background-color: #ffa976;
+    padding: 10px;
+    border-left: 2px solid black;
+    color: white;
+}
+
+text h2{
+    border-bottom:2px solid black;
+    text-align:left ;
+}
+#div_id{
+scroll-behavior: smooth;
+}
+text_2{
+grid-column: span 6;
+background-color: #ffa976;
+padding: 10px;
+border-top: 2px solid black;
+color: black;
+}
+text_2 h2{
+    border-bottom: 2px solid black;
+    text-align: right;
+}
+text iframe {
+    float: right;
+    border: solid black 2px;
+}
+text_2 img{
+    float:left;
+    width:300px;
+    padding:10px;
 }
