@@ -1,0 +1,75 @@
+#wrapper{
+    grid-template-columns: repeat(6,1fr);
+    display: grid;
+    border: 2px solid white;
+    margin: 1em;
+    border-radius: 2.5px;
+	background-color: white;
+}
+
+body {
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	margin: 0;
+	padding: 1em;
+	background: linear-gradient(-45deg, navy, maroon, red, blue);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+}
+
+h1 {
+	text-transform: uppercase;
+	color: red;
+	text-shadow: black 1px 1px 1px;
+	font-size: 3em;
+	margin: 0 0 .25em 0;
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+
+h2 {
+	text-shadow: black 1px 1px 1px;
+	font-weight: normal;
+	margin: 0;
+	padding: .25em 0 .25em 0;
+	border-bottom: 1px solid #ccc;
+}
+
+footer {
+	color: white;
+	padding: .5em;
+	text-align: center;
+}
+
+#mainimg {
+	width: 95%;
+	margin-bottom: 1rem;
+	padding: 10px;
+  }
+
+  header{
+	grid-column: span 6;
+  }
+
+  main{
+  display: grid;
+  grid-column: span 6;
+  grid-template-columns: 1fr;
+  margin: 1em;
+  }
+
+  footer{
+	grid-column: span 6;
+	background-color: navy;
+  }
+
+  @media all and (min-width: 50rem){
+	h1 { color: navy; padding-bottom: .1rem; }
+	#mainimg { width: 98%; float: right; }
+	nav { width: 60%; grid-template-columns: 1fr; }
+	nav a { margin-right: 1rem; }
+	main { clear: both; grid-template-columns: repeat(3,1fr,1fr); grid-column-gap: 4rem; }
+	body { max-width: 960px; margin: 0rem auto; }
+  }            
+  
+  
