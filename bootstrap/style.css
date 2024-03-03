@@ -1,0 +1,13 @@
+body{
+    background-color: slategray;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main{
+    background-color: white;
+    color: slategray;
+    padding:10px;
+}
+img{
+    padding: 10px;
+}
