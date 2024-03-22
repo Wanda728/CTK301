@@ -1,0 +1,43 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(background.jpg);
+    padding: 10px;
+}
+
+header {
+    grid-column: span 6;
+    background-color: brown;
+    border-bottom: 2px solid black;
+    background-image: linear-gradient(180deg, #e9c46b 10%, #668e62 150%);
+}
+
+main {
+    grid-column: span 6;
+    background-color: white;
+    padding: 10px;
+}
+
+#wrapper {
+    grid-template-columns: repeat(6, 1fr);
+    display: grid;
+    border: 2px solid black;
+    margin: 1em;
+}
+
+main h2 {
+    border-bottom: 2px solid black;
+    color: black;
+    text-align: left;
+}
+
+header h1 {
+    margin: 1em;
+    font-weight: bold;
+    font-size: 36px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+html {
+    scroll-behavior: smooth;
+}
